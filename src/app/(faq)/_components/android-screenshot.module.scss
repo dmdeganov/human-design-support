@@ -1,0 +1,18 @@
+.android-screenshot {
+  position: relative;
+  width: fit-content;
+  height: clamp(625px, 75vh, 745px);
+  aspect-ratio: 336/745;
+  @media only screen and (max-width: 580px) {
+    height: unset;
+    width: 100%;
+  }
+  .screen-content {
+    width: 95.607%;
+    height: 95.835%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,83 @@
+@use 'src/globalStyles/variables' as *;
+
+.help {
+  flex-grow: 1;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  position: relative;
+  padding: 70px 0 120px;
+  main {
+    position: relative;
+  }
+  &__heading {
+    margin-bottom: 64px;
+  }
+  &__tittle {
+    margin-bottom: 12px;
+    text-align: center;
+    @include font(64);
+    font-weight: $semibold;
+  }
+  &__description {
+    color: $on-surface-50;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .help {
+    padding: 72px 20px 48px;
+    &__tittle {
+      @include font(48);
+    }
+    &__heading {
+      margin-bottom: 48px;
+    }
+  }
+}
+
+.help-menu {
+  display: flex;
+  column-gap: 24px;
+  @media only screen and (max-width: 640px) {
+    justify-self: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+
+.help-card {
+  width: 322px;
+  height: 322px;
+  border-radius: 16px;
+  background-color: $surface-container-high;
+  padding: 34px 24px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s background-color;
+  &:hover {
+    background-color: $surface-container-higher;
+  }
+  &__title {
+    @include font(32);
+    text-align: center;
+    font-weight: $semibold;
+  }
+  &__description {
+    text-align: center;
+    color: $on-surface-variant;
+  }
+  &__icon {
+    svg {
+      width: 108px;
+      height: 108px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    flex-grow: 1;
+    width: 100% !important;
+  }
+}

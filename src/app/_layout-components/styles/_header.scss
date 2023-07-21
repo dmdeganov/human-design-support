@@ -1,0 +1,59 @@
+@use 'src/globalStyles/variables' as *;
+
+.header {
+  width: 100%;
+  height: clamp(65px, 7.75vh, 84px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  & > div {
+    flex: 1 1 33.33%;
+    display: flex;
+    align-items: center;
+  }
+  &__back {
+    justify-content: flex-start;
+    padding-left: 40px;
+    display: flex;
+  }
+  &__theme-switcher {
+    justify-content: flex-end;
+    padding-right: max(2.77%, 20px);
+  }
+  &__logo {
+    justify-content: center;
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    @include font(16);
+    line-height: 16px;
+  }
+  &__bottom {
+    flex-basis: 4px;
+  }
+  @media only screen and (max-width: 640px) {
+    &__title {
+      display: none !important;
+    }
+  }
+}
+
+[data-theme='light'] {
+  .header {
+    background-color: $surface-container;
+  }
+}
+[data-theme='dark'] {
+  .header {
+    background-color: $surface;
+  }
+}

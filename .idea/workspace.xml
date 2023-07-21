@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a229f0e2-56ca-4f4c-bd07-a9f78b78ff39" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/charged-during-trial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/charged-during-trial/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/next/image-types/global.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SSycPZKwfhpIYZZuFYj4z3WbCN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AwesomeJobCode/human-design-support/src/app/(faq)/troubleshooting/(detail-pages)&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\AwesomeJobCode\\human-design-support\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\AwesomeJobCode\\human-design-support\\node_modules\\typescript\\lib&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AwesomeJobCode\human-design-support\src\app\(faq)\troubleshooting\(detail-pages)" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\assets\svg" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\assets\img" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\app\(faq)\subscriptions\(detail-pages)" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\app\(faq)\_components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AwesomeJobCode\human-design-support\src\app\(faq)\troubleshooting\(detail-pages)" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\assets\img" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\app\(faq)\subscriptions\(detail-pages)" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\app\(faq)\getting-started\(detail-pages)" />
+      <recent name="D:\AwesomeJobCode\human-design-support\src\assets\img\android" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a229f0e2-56ca-4f4c-bd07-a9f78b78ff39" name="Changes" comment="" />
+      <created>1689154362452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689154362452</updated>
+      <workItem from="1689154364753" duration="390000" />
+      <workItem from="1689154778237" duration="1036000" />
+      <workItem from="1689155875194" duration="617000" />
+      <workItem from="1689157095983" duration="351000" />
+      <workItem from="1689157564796" duration="71000" />
+      <workItem from="1689157672033" duration="340000" />
+      <workItem from="1689158902051" duration="238000" />
+      <workItem from="1689159165731" duration="92000" />
+      <workItem from="1689159341515" duration="426000" />
+      <workItem from="1689159790041" duration="506000" />
+      <workItem from="1689160314745" duration="12847000" />
+      <workItem from="1689233857481" duration="21697000" />
+      <workItem from="1689319415581" duration="14013000" />
+      <workItem from="1689333687506" duration="8813000" />
+      <workItem from="1689577013913" duration="20365000" />
+      <workItem from="1689604324192" duration="2848000" />
+      <workItem from="1689664279574" duration="10620000" />
+      <workItem from="1689928871804" duration="651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

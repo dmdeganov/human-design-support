@@ -1,0 +1,8 @@
+@use 'src/globalStyles/variables' as *;
+.album-image {
+  width: 100%;
+  aspect-ratio: 1/0.562;
+  background-color: $surface-container-high;
+  border-radius: 64px;
+  margin-bottom: 16px;
+}

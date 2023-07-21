@@ -1,0 +1,46 @@
+$outer-chakra-diameter--desktop: 120vh;
+$inner-chakra-diameter--desktop: calc(#{$outer-chakra-diameter--desktop}* 0.82);
+
+
+.rotating-chakras {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  &__outer-chakra {
+    animation: rotating-clockwise 120s linear infinite;
+    position: absolute;
+    width: $outer-chakra-diameter--desktop;
+    height: $outer-chakra-diameter--desktop;
+    top: calc(50% - #{$outer-chakra-diameter--desktop} / 2);
+    left: calc(50% - #{$outer-chakra-diameter--desktop} / 2);
+  }
+
+  &__inner-chakra {
+    animation: rotating-counter-clockwise 120s linear infinite;
+    position: absolute;
+    width: $inner-chakra-diameter--desktop;
+    height: $inner-chakra-diameter--desktop;
+    top: calc(50% - #{$inner-chakra-diameter--desktop} / 2);
+    left: calc(50% - #{$inner-chakra-diameter--desktop} / 2);
+  }
+}
+
+@keyframes rotating-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating-counter-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

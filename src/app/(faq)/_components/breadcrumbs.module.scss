@@ -1,0 +1,37 @@
+@use 'src/globalStyles/variables' as *;
+
+.breadcrumbs {
+  height: 19px;
+  margin-bottom: 64px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+  &__item {
+    color: $on-surface-50;
+    cursor: pointer;
+    @include font(16);
+    font-weight: $regular;
+    transition: opacity 0.2s;
+    opacity: 1;
+    &:last-of-type {
+      color: $on-surface;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__arrow {
+    path {
+      fill: $on-surface;
+    }
+    //fill: $on-surface-50;
+    //stroke: $on-surface-50;
+    height: 16px;
+    width: 12px;
+    &:last-of-type {
+      display: none;
+    }
+  }
+}

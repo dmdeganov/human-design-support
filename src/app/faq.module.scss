@@ -1,0 +1,78 @@
+@use 'src/globalStyles/variables' as *;
+.faq {
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  padding: 70px 24px 120px;
+  &__heading {
+    margin-bottom: 64px;
+    h1 {
+      text-align: center;
+      margin-bottom: 12px;
+      @include font(48);
+      font-weight: $semibold;
+    }
+  }
+  &__tittle {
+    margin-bottom: 12px;
+    text-align: center;
+    @include font(64);
+    font-weight: $semibold;
+  }
+  &__description {
+    color: $on-surface-50;
+    text-align: center;
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .faq {
+    padding: 72px 20px 48px;
+    &__tittle {
+      @include font(48);
+    }
+    &__heading {
+      margin-bottom: 48px;
+    }
+  }
+}
+
+.faq-item {
+  cursor: pointer;
+  padding: 24px 88px 24px 24px;
+  background-color: $surface-container-high;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: $surface-container-higher;
+  }
+  border-radius: 16px;
+  position: relative;
+  h4 {
+    @include font(24);
+    margin-bottom: 12px;
+  }
+  p {
+    color: $on-surface-variant;
+  }
+  &__forward-icon {
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+    stroke-width: 2px;
+    path {
+      opacity: 1;
+      fill: $on-surface;
+      stroke-width: 2px;
+    }
+  }
+}

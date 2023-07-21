@@ -1,0 +1,191 @@
+@use 'src/globalStyles/variables' as *;
+.faq-detail {
+  width: min(1440px, 100%);
+  position: relative;
+  padding: clamp(120px, 12.5vh, 133px) clamp(95px, 7.3vw, 105px) clamp(130px, 13.5vh, 144px);
+  @media only screen and (max-width: 1240px) {
+    padding: clamp(120px, 12.5vh, 133px) 36px clamp(130px, 13.5vh, 144px);
+  }
+  margin: 0 auto;
+  display: flex;
+  column-gap: 65px;
+  line-height: 150%;
+
+  aside {
+    display: block;
+    flex: 0 0 min(35vw, 424px);
+    position: relative;
+    nav {
+      width: min(35vw, 424px);
+      padding: 20px 32px 32px 20px;
+      position: fixed;
+      border-radius: 16px;
+      background: linear-gradient(90deg, #4d8dbc 0%, #5352bd 100%), linear-gradient(0deg, #232324 0%, #232324 100%);
+      h2 {
+        font-weight: $semibold;
+        @include font(32);
+        color: #fff;
+        margin-bottom: 20px;
+        line-height: 150%;
+      }
+      li {
+        position: relative;
+        left: 22px;
+        a {
+          color: #fff;
+        }
+        @include font(20);
+        &:not(:last-of-type) {
+          margin-bottom: 20px;
+        }
+        &::before {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          height: 7.5px;
+          width: 7.5px;
+          left: -22px;
+          top: 7px;
+          border-radius: 50%;
+          background-color: #fff;
+
+          transition: transform 0.2s;
+          transform-origin: center;
+        }
+        &:after {
+          height: 4px;
+          width: 4px;
+          left: -21.3px;
+          top: 8px;
+          background-color: transparent;
+          border-radius: 50%;
+          border: 1px solid #4d8dbc;
+          //border: 1px solid orangered;
+          content: '';
+          display: inline-block;
+          position: absolute;
+          transform: scale(0);
+          transition: transform 0.2s;
+          transform-origin: center;
+        }
+        &:hover {
+          &::before {
+            transform: scale(1.4);
+          }
+          &:after {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+  main {
+    flex: 1;
+    color: $on-surface-50;
+    @include font(20);
+    & > h1 {
+      font-weight: $semibold;
+      @include font(48);
+      color: $on-surface;
+      margin-bottom: 12px;
+      line-height: 120%;
+    }
+    & > p {
+      &:first-of-type {
+        margin-bottom: 32px;
+        line-height: 150%;
+      }
+    }
+    h2 {
+      font-weight: $semibold;
+      @include font(32);
+      color: $on-surface;
+      line-height: 150%;
+    }
+  }
+  strong {
+    font-weight: $semibold;
+    color: $on-surface;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    font-weight: $regular;
+    &:not(:first-of-type) {
+      padding-top: 48px;
+    }
+    &.underline {
+      border-bottom: 1px solid $on-surface-10;
+      padding-bottom: 32px;
+    }
+    & > p {
+      line-height: 150%;
+    }
+    ul {
+      li {
+        position: relative;
+        line-height: 200%;
+        padding-left: 25px;
+        &:before {
+          position: absolute;
+          left: 8px;
+          top: 1px;
+          content: '·';
+          font-size: 28px;
+        }
+      }
+      .image-in-list {
+        margin-top: 28px;
+        margin-bottom: 32px;
+      }
+    }
+  }
+  ul {
+  }
+}
+.emoji {
+  color: $on-surface;
+}
+p.full-color {
+  color: $on-surface;
+}
+a.link,
+a.link--unbreakable {
+  background: linear-gradient(to right, #58b9ff 30%, #5655f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  font-weight: $bold;
+  text-underline-position: under;
+  text-decoration: underline;
+  text-decoration-color: #578afc;
+  line-height: 150%;
+  position: relative;
+  word-break: break-all;
+}
+a.link--unbreakable {
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 640px) {
+  .faq-detail {
+    padding: 92px 20px 144px;
+    aside {
+      display: none;
+    }
+    main {
+      @include font(16);
+      h1 {
+        @include font(32);
+      }
+      h2 {
+        @include font(24);
+      }
+    }
+  }
+}

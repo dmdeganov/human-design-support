@@ -1,0 +1,31 @@
+//variables gotten from css global variables according to theme
+
+$on-surface: var(--on-surface);
+$surface-container: var(--surface-container);
+$surface-container-high: var(--surface-container-high);
+$surface-container-low: var(--surface-container-low);
+$on-surface-10: var(--on-surface-10);
+$on-surface-20: var(--on-surface-20);
+$on-surface-50: var(--on-surface-50);
+$on-surface-variant: var(--on-surface-variant);
+$on-surface-low: var(--on-surface-low);
+$surface: var(--surface);
+$gender-icon-surface-outline: var(--gender-icon-surface-outline);
+$input-underline: #6e6e6f;
+$surface-container-higher: var(--surface-container-higher);
+
+//font-weights
+$regular: var(--regular);
+$medium: var(--medium);
+$semibold: var(--semibold);
+$bold: var(--bold);
+
+@mixin font($size) {
+  @if $size < 21 {
+    font-size: #{$size}px;
+    font-family: 'SF Pro Text', sans-serif;
+  } @else {
+    font-size: #{$size}px;
+    font-family: 'SF Pro Display', sans-serif;
+  }
+}

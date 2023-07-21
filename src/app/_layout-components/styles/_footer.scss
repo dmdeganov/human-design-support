@@ -1,0 +1,61 @@
+@use 'src/globalStyles/variables' as *;
+.footer {
+  position: relative;
+  height: clamp(65px, 7.75vh, 84px);
+  background-color: $surface-container-low;
+  width: 100%;
+  padding: 0 40px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $on-surface-20;
+
+  &__copyright {
+    @include font(14);
+  }
+  &__links {
+    display: flex;
+    li {
+      white-space: nowrap;
+      padding: 0 10px 0 8px;
+      position: relative;
+
+      a {
+        color: $on-surface-50;
+        @include font(14);
+        border-bottom: 1px solid $on-surface-50;
+        line-height: 14px;
+        transition: all 0.2s;
+        &:focus,
+        &:hover {
+          color: $on-surface;
+          border-color: $on-surface;
+        }
+      }
+    }
+    li:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 1px;
+      display: block;
+      height: 14px;
+      width: 1px;
+      background-color: $on-surface-20;
+    }
+
+  }
+  @media only screen and (max-width: 640px) {
+    &__links{
+      display: none;
+    }
+    &__copyright {
+      text-align: center;
+      flex-grow: 1;
+      span{
+        display: none;
+      }
+    }
+  }
+}

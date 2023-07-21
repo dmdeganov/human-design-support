@@ -1,0 +1,12 @@
+@use 'src/globalStyles/variables' as *;
+
+main.get-premium{
+  h2{
+    line-height: normal;
+  }
+  p{
+    font-weight: $semibold;
+    color: $on-surface;
+    font-size: 20px;
+  }
+}

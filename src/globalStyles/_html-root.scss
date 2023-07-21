@@ -1,0 +1,23 @@
+@use 'variables' as *;
+:root {
+  line-height: 1.2;
+  font-weight: $regular;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: $surface;
+  color: $on-surface;
+}
+html{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+}
