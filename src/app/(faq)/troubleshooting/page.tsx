@@ -11,7 +11,7 @@ const Subscriptions = () => {
   return (
     <div className={styles['faq']}>
       <div className={styles['faq__heading']}>
-        <h1 className={styles['faq__title']}>Troubleshooting</h1>
+        <h1 className={styles['faq__title']} >Troubleshooting</h1>
         <p className={styles['faq__description']}>Lorem Ipsum dolor sit amet consectetur adipsing elit</p>
       </div>
       <div className={styles['faq__items']}>

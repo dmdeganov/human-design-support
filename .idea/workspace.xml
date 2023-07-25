@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a229f0e2-56ca-4f4c-bd07-a9f78b78ff39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(faq)/getting-started/(detail-pages)/download-app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/getting-started/(detail-pages)/download-app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/automatic-charging/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/automatic-charging/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/canceling/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/canceling/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/change-profile-data/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/change-profile-data/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/charged-during-trial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/charged-during-trial/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_layout-components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_layout-components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_layout-components/styles/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_layout-components/styles/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/faq.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/faq.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/help.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/help.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AwesomeJobCode/human-design-support/src/app/(faq)/troubleshooting/(detail-pages)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AwesomeJobCode/human-design-web-faq&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -57,9 +67,9 @@
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\AwesomeJobCode\\human-design-support\\node_modules\\prettier&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\AwesomeJobCode\\human-design-web-faq\\node_modules\\prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\AwesomeJobCode\\human-design-support\\node_modules\\typescript\\lib&quot;
+    &quot;ts.external.directory.path&quot;: &quot;D:\\AwesomeJobCode\\human-design-web-faq\\node_modules\\typescript\\lib&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -107,6 +117,9 @@
       <workItem from="1689604324192" duration="2848000" />
       <workItem from="1689664279574" duration="10620000" />
       <workItem from="1689928871804" duration="651000" />
+      <workItem from="1690191204483" duration="649000" />
+      <workItem from="1690207421042" duration="3152000" />
+      <workItem from="1690270765472" duration="4438000" />
     </task>
     <servers />
   </component>

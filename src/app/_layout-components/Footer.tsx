@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import {layoutStyles} from "@/app/_layout-components/styles";
 
@@ -11,13 +12,13 @@ const Footer = () => {
       <nav >
         <ul className={layoutStyles['footer__links']}>
           <li>
-            <a href="#">Instagram</a>
+            <a href="#" onClick={e => e.preventDefault()}>Instagram</a>
           </li>
           <li>
-            <a href="#">Terms of use</a>
+            <a href="#" onClick={e => e.preventDefault()}>Terms of use</a>
           </li>
           <li>
-            <a href="#">Privacy Policy</a>
+            <a href="#" onClick={e => e.preventDefault()}>Privacy Policy</a>
           </li>
         </ul>
       </nav>

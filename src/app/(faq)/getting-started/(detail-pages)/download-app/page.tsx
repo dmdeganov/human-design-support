@@ -35,18 +35,14 @@ export default function DownloadApp() {
         <IphoneScreenshot screenshotSrc={AppStoreScreen} />
         <ul>
           <li>
-              If prompted, authenticate the download using your Apple ID
-            <br />
-              or Touch ID/Face ID.
+              If prompted, authenticate the download using your Apple ID or Touch ID/Face ID.
           </li>
           <li>
-              The app will start downloading, and its progress will be indicated
-            <br /> a loading circle.
+              The app will start downloading, and its progress will be indicated a loading circle.
           </li>
           <li>
               Once the installation is complete, you can tap on the <strong>Open</strong> button to launch the app.
-          </li>
-        </ul>
+          </li></ul>
         <p>Once the download is complete, the app will automatically install on your device.</p>
       </section>
       <section className={faqDetailStyles['underline']}>

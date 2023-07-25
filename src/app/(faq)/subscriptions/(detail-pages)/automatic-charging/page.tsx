@@ -79,7 +79,7 @@ const AutomaticCharging = () => {
           your subscription status and cancel it either in the app or via our subscription portal if you don't wish to
           get charged again.
           <br />
-          <Link href="/" className={faqDetailStyles['link']}>
+          <Link href="canceling" className={faqDetailStyles['link']}>
             Check the instructions
           </Link>
         </p>

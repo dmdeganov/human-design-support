@@ -39,6 +39,9 @@
       @include font(48);
     }
     &__heading {
+      h1{
+        @include font(42);
+      }
       margin-bottom: 48px;
     }
   }
@@ -49,8 +52,10 @@
   padding: 24px 88px 24px 24px;
   background-color: $surface-container-high;
   transition: background-color 0.2s;
-  &:hover {
-    background-color: $surface-container-higher;
+  @media (hover) {
+    &:hover {
+      background-color: $surface-container-higher;
+    }
   }
   border-radius: 16px;
   position: relative;

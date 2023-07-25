@@ -32,11 +32,15 @@ const CancelingSubscription = () => {
         <h2>To cancel your trial or subscription on iOS:</h2>
         <ul>
           <li>
-            Open the Settings App <GearIcon /> on your iPhone and tap your name and Apple ID at the top.
+            Open the{' '}
+            <strong>
+              Settings App <GearIcon />
+            </strong>{' '}
+            on your iPhone and tap your name and Apple ID at the top.
           </li>
           <li>
-            On the Apple ID page, tap <strong>Subscriptions</strong>. You may need to enter your password or use Touch ID or Face ID to
-            log into your account.
+            On the Apple ID page, tap <strong>Subscriptions</strong>. You may need to enter your password or use Touch
+            ID or Face ID to log into your account.
           </li>
           <div className={faqDetailStyles['image-in-list']}>
             <HalfScreenshot imageSrc={appleIdScreen} />

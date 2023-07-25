@@ -23,7 +23,7 @@ const Page = () => {
         <h2>How to change your profile data:</h2>
         <ul>
           <li>
-            Open the <strong>Design App</strong>.
+            Open the <strong>HDesign App</strong>.
           </li>
           <li>
             Tap <strong>Settings</strong>.

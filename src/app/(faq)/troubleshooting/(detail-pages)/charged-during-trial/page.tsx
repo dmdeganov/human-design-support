@@ -35,11 +35,17 @@ const ChargedDuringTrial = () => {
           </Link>
           .
         </p>
+        <p className={faqDetailStyles['full-color']}>
+          📩 Feel free to reach out to us by emailing{' '}
+          <a className={faqDetailStyles['link--unbreakable']} href="mailto:humdesignhd@gmail.com">
+            humdesignhd@gmail.com
+          </a>
+          .
+        </p>
         <p className="mt-2">
           <strong>Thank you for your understanding, and we appreciate your patience.</strong>
         </p>
       </section>
-
     </main>
   );
 };
