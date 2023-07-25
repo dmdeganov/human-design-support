@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a229f0e2-56ca-4f4c-bd07-a9f78b78ff39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(faq)/getting-started/(detail-pages)/download-app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/getting-started/(detail-pages)/download-app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/automatic-charging/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/automatic-charging/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/canceling/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/subscriptions/(detail-pages)/canceling/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/change-profile-data/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/change-profile-data/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/charged-during-trial/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/(detail-pages)/charged-during-trial/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(faq)/troubleshooting/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_layout-components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_layout-components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_layout-components/styles/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_layout-components/styles/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/faq.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/faq.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/help.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/help.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useThemeHook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useThemeHook.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +109,7 @@
       <workItem from="1689928871804" duration="651000" />
       <workItem from="1690191204483" duration="649000" />
       <workItem from="1690207421042" duration="3152000" />
-      <workItem from="1690270765472" duration="4438000" />
+      <workItem from="1690270765472" duration="8338000" />
     </task>
     <servers />
   </component>

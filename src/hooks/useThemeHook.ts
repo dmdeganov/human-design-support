@@ -36,6 +36,15 @@ const useThemeHook = (initialTheme: ThemesUnion) => {
     }, 1000);
   }, []);
 
+  useEffect(() => {
+    if (!CSS.supports('height', 'clamp(1px, 1vh, 100%)' || !CSS.supports('row-gap', '0px'))){
+      alert( 'Your browser may not show this website correctly. Please consider' +
+        ' using a' +
+        ' standards-compliant browser instead.')
+    }
+  }, []);
+
+
   return {toggleTheme, currentTheme};
 };
 
