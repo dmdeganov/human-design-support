@@ -17,21 +17,21 @@ const HelpCentre = () => {
       <div className={styles["help-menu"]}>
         <Link href="/getting-started" className={styles['help-card']}>
           <div className={styles["help-card__icon"]}>
-            <Image src={GettingStartedLogo} alt=""  width={108} height={108}/>
+            <Image src={GettingStartedLogo} alt="" priority width={108} height={108}/>
           </div>
           <h2 className={styles["help-card__title"]}>Getting started</h2>
           <p className={styles["help-card__description"]}>Lorem Ipsum dolor sit amet consectetur adipsing elit</p>
         </Link >
         <Link href="/subscriptions"  className={styles['help-card']}>
           <div className={styles["help-card__icon"]} >
-            <Image src={SubscriptionLogo} alt=""  width={108} height={108}/>
+            <Image src={SubscriptionLogo} alt=""  priority width={108} height={108}/>
           </div>
           <h2 className={styles["help-card__title"]}>Subscriptions</h2>
           <p className={styles["help-card__description"]}>Ut molestie sed nisi eu ultrices egestas mauris non sollicitudin</p>
         </Link>
         <Link href="/troubleshooting"  className={styles['help-card']}>
           <div className={styles["help-card__icon"]} >
-            <Image src={TroubleshootingLogo} alt=""  width={108} height={108}/>
+            <Image src={TroubleshootingLogo} alt=""  priority width={108} height={108}/>
           </div>
           <h2 className={styles["help-card__title"]}>Troubleshooting</h2>
           <p className={styles["help-card__description"]}>Egestas urna sed dui mauris nibh tempor odio eu</p>
