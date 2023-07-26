@@ -45,10 +45,10 @@ const CancelingSubscription = () => {
           <div className={faqDetailStyles['image-in-list']}>
             <HalfScreenshot imageSrc={appleIdScreen} />
           </div>
-          <li>Review the list of active subscriptions. Find the HDesign App, tap it.</li>
+          <li>Review the list of active subscriptions. Find the <strong>HDesign App</strong>, tap it.</li>
           <li>
             On the subscription page, review the details about your subscription. To cancel this subscription, tap
-            Cancel Subscription and then confirm your choice.
+            <strong> Cancel Subscription</strong> and then confirm your choice.
           </li>
         </ul>
         <p>
